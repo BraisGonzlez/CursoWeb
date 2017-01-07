@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.activity.MainActivity"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:text="Identifíquese"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
+
+    <EditText
+        android:id="@+id/esUser"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:hint="Ingrese su id. usuario"
+        android:background="#80FFFFFF"
+        android:layout_weight="0.06" />
+        <requestFocus/>
+
+    <EditText
+        android:id="@+id/esPswd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:hint="Ingrese su contraseña"
+        android:background="#80FFFFFF"
+        android:layout_weight="0.06" />
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btnIngresar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresar"
+            android:layout_weight="5" />
+
+        <Button
+            android:id="@+id/btnBorrar"
+            style="@style/Base.TextAppearance.AppCompat.Small"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Borrar"
+            android:layout_weight="5" />
+
+
+
+    </LinearLayout>
+    
+</LinearLayout>

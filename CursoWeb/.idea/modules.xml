@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/18_crear_activity/18_crear_activity.iml" filepath="$PROJECT_DIR$/18_crear_activity/18_crear_activity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/19_intents/19_intents.iml" filepath="$PROJECT_DIR$/19_intents/19_intents.iml" />
+      <module fileurl="file://$PROJECT_DIR$/20_objectos_bundle/20_objectos_bundle.iml" filepath="$PROJECT_DIR$/20_objectos_bundle/20_objectos_bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/21_gestion_imagenes/21_gestion_imagenes.iml" filepath="$PROJECT_DIR$/21_gestion_imagenes/21_gestion_imagenes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CursoWeb.iml" filepath="$PROJECT_DIR$/CursoWeb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
