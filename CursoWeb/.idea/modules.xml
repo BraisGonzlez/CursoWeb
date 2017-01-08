@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/19_intents/19_intents.iml" filepath="$PROJECT_DIR$/19_intents/19_intents.iml" />
       <module fileurl="file://$PROJECT_DIR$/20_objectos_bundle/20_objectos_bundle.iml" filepath="$PROJECT_DIR$/20_objectos_bundle/20_objectos_bundle.iml" />
       <module fileurl="file://$PROJECT_DIR$/21_gestion_imagenes/21_gestion_imagenes.iml" filepath="$PROJECT_DIR$/21_gestion_imagenes/21_gestion_imagenes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/22_toggle_button/22_toggle_button.iml" filepath="$PROJECT_DIR$/22_toggle_button/22_toggle_button.iml" />
+      <module fileurl="file://$PROJECT_DIR$/24_listview/24_listview.iml" filepath="$PROJECT_DIR$/24_listview/24_listview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/25_spinner/25_spinner.iml" filepath="$PROJECT_DIR$/25_spinner/25_spinner.iml" />
       <module fileurl="file://$PROJECT_DIR$/CursoWeb.iml" filepath="$PROJECT_DIR$/CursoWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
