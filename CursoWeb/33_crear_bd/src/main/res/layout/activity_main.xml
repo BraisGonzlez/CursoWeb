@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.a33_crear_bd.MainActivity"
+    android:background="@android:color/darker_gray">
+
+
+<TextView
+    android:id="@+id/tvTitulo"
+    android:text="Registro Personal de números telefónicos"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="16dp" />
+
+<EditText
+    android:id="@+id/etTel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="phone"
+    android:hint="Número Telefónico"
+    android:ems="10"
+    android:layout_below="@+id/tvTitulo"
+    android:layout_marginTop="26dp"
+    />
+
+<TextView
+    android:text="Datos Guardados"
+    android:id="@+id/tvTituloDatos"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/btn_agregar"
+    android:layout_alignLeft="@+id/tvTitulo"
+    android:layout_alignStart="@+id/tvTitulo"
+    android:layout_marginTop="37dp"
+    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+    />
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/tvTituloDatos"
+    android:background="#505050"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvDatos"
+        android:text="50352928399"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:layout_marginLeft="45dp"
+
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+
+
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/btn_agregar"
+    android:text="Agregar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="35dp"
+    android:layout_below="@+id/etTel"
+    android:layout_alignRight="@+id/tvTitulo"
+    android:layout_alignEnd="@+id/tvTitulo" />
+
+<Button
+    android:id="@+id/btn_mostrar"
+    android:text="Mostrar"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignBaseline="@+id/btn_agregar"
+    android:layout_alignBottom="@+id/btn_agregar"
+    android:layout_alignLeft="@+id/tvTituloDatos"
+    android:layout_alignStart="@+id/tvTituloDatos" />
+</RelativeLayout>

@@ -9,6 +9,10 @@
       <module fileurl="file://$PROJECT_DIR$/22_toggle_button/22_toggle_button.iml" filepath="$PROJECT_DIR$/22_toggle_button/22_toggle_button.iml" />
       <module fileurl="file://$PROJECT_DIR$/24_listview/24_listview.iml" filepath="$PROJECT_DIR$/24_listview/24_listview.iml" />
       <module fileurl="file://$PROJECT_DIR$/25_spinner/25_spinner.iml" filepath="$PROJECT_DIR$/25_spinner/25_spinner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/32_introduccion_sql/32_introduccion_sql.iml" filepath="$PROJECT_DIR$/32_introduccion_sql/32_introduccion_sql.iml" />
+      <module fileurl="file://$PROJECT_DIR$/33_crear_bd/33_crear_bd.iml" filepath="$PROJECT_DIR$/33_crear_bd/33_crear_bd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/34_operaciones_bd/34_operaciones_bd.iml" filepath="$PROJECT_DIR$/34_operaciones_bd/34_operaciones_bd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/35_mostrar_datos_bd/35_mostrar_datos_bd.iml" filepath="$PROJECT_DIR$/35_mostrar_datos_bd/35_mostrar_datos_bd.iml" />
       <module fileurl="file://$PROJECT_DIR$/CursoWeb.iml" filepath="$PROJECT_DIR$/CursoWeb.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
