@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#424242"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#303030"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="History" />
+
+
+
+        <TextView
+            android:layout_below="@+id/toolbar"
+            android:layout_marginTop="15dp"
+            android:text="Somos la nueva París de Noia, una formación renovada en la cual catorce grandes profesionales estamos trabajando a diario con muchísimas ganas y cargados de una enorme ilusión, convencidos de que podemos ganarnos vuestros aplausos, y de que conseguiremos sorprenderos gratamente actuación tras actuación"
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_below="@+id/textView1"
+            android:layout_marginTop="15dp"
+            android:text="Pero llegaron nuevos tiempos y nuevas tendencias musicales, (los años 80 con la fiebre de las discotecas, el pop y el rock...), es el momento del cambio y Paris de Noia se apuntó con ilusión a este nuevo reto. Se trataba de conjugar los gustos de los más mayores con el cambio que pedía la juventud gallega. A partir de aquí la carrera musical de Paris de Noia se convierte en una línea ascendente, estando actualmente considerada como una de las mejores orquestas de Galicia. Esto se debe al trabajo constante y meticuloso, a una fuerte inversión en material escenográfico, de luz y sonido; pero sobre todo por contar con los mejore músicos del panorama actual. Todos estos factores hacen que Paris de Noia actúe sin apenas descanso durante todo el año."
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="15dp"
+            android:text="Actualmente la plantilla de esta orquesta está formada por 14 músicos, un técnico de sonido, dos técnicos de iluminación, 6 técnicos de montaje. Contamos con un gran escenario móvil con lo último en iluminación y sonido."
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff" />
+
+
+
+</RelativeLayout>
