@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#424242">
 
@@ -13,4 +14,155 @@
         android:minHeight="?attr/actionBarSize"
         android:id="@+id/toolbar"
         app:title="Fans" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+
+                android:text="Sing Up"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:id="@+id/tw_reg"
+                android:textSize="24sp"
+                android:textColor="#FFFFFF"
+                android:layout_centerHorizontal="true"
+                android:layout_column="1" />
+
+            <TextView
+                android:text="Name:"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/tw_name"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/tw_reg"
+                android:layout_alignLeft="@+id/name"
+                android:layout_alignStart="@+id/name"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/name"
+                android:textColor="@android:color/black"
+                android:background="@drawable/bordes_redondos"
+                android:text=" "
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_column="2"
+                android:layout_below="@+id/tw_name"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"/>
+
+            <TextView
+
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tw_email"
+                android:text="Email:"
+                android:textColor="@android:color/background_light"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/name"
+                android:layout_alignLeft="@+id/mail"
+                android:layout_alignStart="@+id/mail"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:id="@+id/mail"
+                android:textColor="@android:color/black"
+                android:background="@drawable/bordes_redondos"
+                android:layout_column="1"
+                android:layout_below="@+id/tw_email"
+                android:layout_alignLeft="@+id/name"
+                android:layout_alignStart="@+id/name"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="Password:"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/tw_password"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="15dp"
+                android:layout_below="@+id/mail"
+                android:layout_alignLeft="@+id/mail"
+                android:layout_alignStart="@+id/mail"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:layout_marginTop="5dp"
+                android:id="@+id/password"
+                android:background="@drawable/bordes_redondos"
+                android:layout_below="@+id/tw_password"
+                android:layout_alignLeft="@+id/tw_password"
+                android:layout_alignStart="@+id/tw_password"
+                android:textColor="@android:color/black"
+                android:layout_column="1"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:text="Repeat Password:"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:id="@+id/tw_repeat_password"
+                android:textColor="#FFFFFF"
+                android:layout_below="@+id/password"
+                android:layout_alignLeft="@+id/tw_password"
+                android:layout_alignStart="@+id/tw_password"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/rp_password"
+                android:textColor="@android:color/black"
+                android:background="@drawable/bordes_redondos"
+                android:text=" "
+                android:textSize="18sp"
+                android:textAllCaps="false"
+                android:layout_column="2"
+                android:layout_below="@+id/tw_name"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:text="Sing Up"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:id="@+id/btn_reg"
+                android:textStyle="normal|bold"
+                android:background="@drawable/bordes_redondos"
+                android:layout_below="@+id/rp_password"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>

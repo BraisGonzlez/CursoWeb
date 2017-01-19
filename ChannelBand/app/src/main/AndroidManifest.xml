@@ -24,9 +24,9 @@
         </activity>
         <!-- *********************************************************************************** -->
         <!-- Hacemos esto para que nos permita pasar con los intents entre las distintas activities -->
-        <activity android:name=".Home">
+        <activity android:name=".News">
             <intent-filter>
-                <action android:name="com.example.brais.channelband.Home" />
+                <action android:name="com.example.brais.channelband.News" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
