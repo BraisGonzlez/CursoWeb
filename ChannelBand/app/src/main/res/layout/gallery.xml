@@ -30,11 +30,35 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 app:srcCompat="@android:color/background_light"
                 android:layout_below="@+id/toolbar"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="42dp"
+                android:layout_marginTop="30dp"
                 android:id="@+id/foto" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@android:color/background_light"
+                android:layout_below="@+id/foto"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/foto2" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                app:srcCompat="@android:color/background_light"
+                android:layout_below="@+id/foto2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/foto3" />
 
         </LinearLayout>
     </ScrollView>
