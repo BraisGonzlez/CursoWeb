@@ -1,4 +1,4 @@
-package com.example.brais.channelband;
+package com.example.brais.channelband.Database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by brais on 23/01/2017.
+ * Created by braisgi@gmail.com
  */
 
 public class DBUsers extends SQLiteOpenHelper {
@@ -24,12 +24,14 @@ public class DBUsers extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, 1);
     }
 
+    /**********************************************************************************************/
     @Override
     public void onCreate(SQLiteDatabase db) {
         //Create a new database
         db.execSQL("CREATE TABLE " + TABLE_NAME + " (NAME TEXT PRIMARY KEY, INSTRUMENT TEXT, BAND TEXT, OLDBAND TEXT)");
     }
 
+    /**********************************************************************************************/
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         //Delete the old version of our database
@@ -39,6 +41,7 @@ public class DBUsers extends SQLiteOpenHelper {
         onCreate(db);
     }
 
+    /**********************************************************************************************/
     public boolean insertData(String name,String instrument,String band, String oldband) {
 
         SQLiteDatabase db = this.getWritableDatabase();
@@ -56,12 +59,14 @@ public class DBUsers extends SQLiteOpenHelper {
             return true;
     }
 
+    /**********************************************************************************************/
     public Cursor getAllData() {
         SQLiteDatabase db = this.getWritableDatabase();
         Cursor res = db.rawQuery("select * from "+TABLE_NAME,null);
         return res;
     }
 
+    /**********************************************************************************************/
     public boolean updateData(String name,String instrument,String band,String oldband) {
         SQLiteDatabase db = this.getWritableDatabase();
         ContentValues contentValues = new ContentValues();
@@ -73,6 +78,7 @@ public class DBUsers extends SQLiteOpenHelper {
         return true;
     }
 
+    /**********************************************************************************************/
     public Integer deleteData (String id) {
         SQLiteDatabase db = this.getWritableDatabase();
         return db.delete(TABLE_NAME, "NAME = ?",new String[] {id});
