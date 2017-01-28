@@ -6,4 +6,21 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+    <string name="photo1" />
+    <string name="photo3" />
+    <string name="photo2" />
+    <string name="name">Name:</string>
+    <string name="instrument">Instrument</string>
+    <string name="actually_band">Actually Band</string>
+    <string name="old_band">Old Band</string>
+    <string name="add">ADD</string>
+    <string name="show">SHOW</string>
+    <string name="update">UPDATE</string>
+    <string name="delete">DELETE</string>
+    <string name="photo" />
+    <string name="somos_la_nueva_par_s_de_noia_una_formaci_n_renovada_en_la_cual_catorce_grandes_profesionales_estamos_trabajando_a_diario_con_much_simas_ganas_y_cargados_de_una_enorme_ilusi_n_convencidos_de_que_podemos_ganarnos_vuestros_aplausos_y_de_que_conseguiremos_sorprenderos_gratamente_actuaci_n_tras_actuaci_n">Somos la nueva París de Noia, una formación renovada en la cual catorce grandes profesionales estamos trabajando a diario con muchísimas ganas y cargados de una enorme ilusión, convencidos de que podemos ganarnos vuestros aplausos, y de que conseguiremos sorprenderos gratamente actuación tras actuación</string>
+    <string name="pero_llegaron_nuevos_tiempos_y_nuevas_tendencias_musicales_los_a_os_80_con_la_fiebre_de_las_discotecas_el_pop_y_el_rock_es_el_momento_del_cambio_y_paris_de_noia_se_apunt_con_ilusi_n_a_este_nuevo_reto_se_trataba_de_conjugar_los_gustos_de_los_m_s_mayores_con_el_cambio_que_ped_a_la_juventud_gallega_a_partir_de_aqu_la_carrera_musical_de_paris_de_noia_se_convierte_en_una_l_nea_ascendente_estando_actualmente_considerada_como_una_de_las_mejores_orquestas_de_galicia_esto_se_debe_al_trabajo_constante_y_meticuloso_a_una_fuerte_inversi_n_en_material_escenogr_fico_de_luz_y_sonido_pero_sobre_todo_por_contar_con_los_mejore_m_sicos_del_panorama_actual_todos_estos_factores_hacen_que_paris_de_noia_act_e_sin_apenas_descanso_durante_todo_el_a_o">Pero llegaron nuevos tiempos y nuevas tendencias musicales, (los años 80 con la fiebre de las discotecas, el pop y el rock...), es el momento del cambio y Paris de Noia se apuntó con ilusión a este nuevo reto. Se trataba de conjugar los gustos de los más mayores con el cambio que pedía la juventud gallega. A partir de aquí la carrera musical de Paris de Noia se convierte en una línea ascendente, estando actualmente considerada como una de las mejores orquestas de Galicia. Esto se debe al trabajo constante y meticuloso, a una fuerte inversión en material escenográfico, de luz y sonido; pero sobre todo por contar con los mejore músicos del panorama actual. Todos estos factores hacen que Paris de Noia actúe sin apenas descanso durante todo el año.</string>
+    <string name="actualmente_la_plantilla_de_esta_orquesta_est_formada_por_14_m_sicos_un_t_cnico_de_sonido_dos_t_cnicos_de_iluminaci_n_6_t_cnicos_de_montaje_contamos_con_un_gran_escenario_m_vil_con_lo_ltimo_en_iluminaci_n_y_sonido">Actualmente la plantilla de esta orquesta está formada por 14 músicos, un técnico de sonido, dos técnicos de iluminación, 6 técnicos de montaje. Contamos con un gran escenario móvil con lo último en iluminación y sonido.</string>
+    <string name="_15_08_2017">15/08/2017</string>
+    <string name="a_adir_fragment">Añadir Fragment</string>
 </resources>

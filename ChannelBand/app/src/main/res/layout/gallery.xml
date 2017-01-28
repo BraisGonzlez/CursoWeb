@@ -1,21 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#424242">
+    android:background="#424242"
+    android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_gallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#303030"
-        android:theme="?attr/actionBarTheme"
         android:minHeight="?attr/actionBarSize"
-        android:id="@+id/toolbar"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
+        android:theme="?attr/actionBarTheme"
         app:title="Gallery" />
 
     <ScrollView
@@ -25,42 +22,37 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <ImageView
+                android:id="@+id/photo1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                app:srcCompat="@android:color/background_light"
-                android:layout_below="@+id/toolbar"
-                android:layout_centerHorizontal="true"
                 android:layout_marginTop="30dp"
-                android:id="@+id/foto" />
+                android:contentDescription="@string/photo1" />
 
             <ImageView
+                android:id="@+id/photo2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                app:srcCompat="@android:color/background_light"
-                android:layout_below="@+id/foto"
-                android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:id="@+id/foto2" />
+                android:contentDescription="@string/photo2" />
 
             <ImageView
+                android:id="@+id/photo3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                app:srcCompat="@android:color/background_light"
-                android:layout_below="@+id/foto2"
-                android:layout_centerHorizontal="true"
                 android:layout_marginTop="10dp"
-                android:id="@+id/foto3" />
+                android:contentDescription="@string/photo3" />
 
         </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>

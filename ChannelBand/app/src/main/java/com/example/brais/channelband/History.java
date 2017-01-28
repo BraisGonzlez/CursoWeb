@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 
 /**
- * Created by brais on 12/01/2017.
+ * Created by braisgi@gmail.com
  */
 
 public class History extends AppCompatActivity {
@@ -22,8 +22,8 @@ public class History extends AppCompatActivity {
         photo = (ImageView) findViewById(R.id.photo);
 
         String URL = "http://www.orquestasdegalicia.es/img/portada/orquestas/id347portada.jpg";
-        //PARA INSERTAR IMAGENES
 
+        //INSERT PICTURES
         Glide.with(this)
                 .load(URL)
                 .into(photo);

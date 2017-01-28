@@ -13,7 +13,7 @@ import android.widget.Toast;
 import com.example.brais.channelband.R;
 
 /**
- * Created by brais on 27/01/2017.
+ * Created by braisgi@gmail.com
  */
 
 public class BlackFragment extends Fragment {

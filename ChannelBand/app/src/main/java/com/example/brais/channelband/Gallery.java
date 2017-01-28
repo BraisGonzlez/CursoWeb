@@ -7,36 +7,35 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 
 /**
- * Created by brais on 19/01/2017.
+ * Created by braisgi@gmail.com
  */
 
 public class Gallery extends AppCompatActivity {
 
-    private ImageView foto,foto2,foto3;
+    ImageView photo1, photo2, photo3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.gallery);
 
-        foto = (ImageView) findViewById(R.id.foto);
-        foto2 = (ImageView) findViewById(R.id.foto2);
-        foto3 = (ImageView) findViewById(R.id.foto3);
+        photo1 = (ImageView) findViewById(R.id.photo1);
+        photo2 = (ImageView) findViewById(R.id.photo2);
+        photo3 = (ImageView) findViewById(R.id.photo3);
 
-        String URL = "http://www.orquestasdegalicia.es/img/portada/orquestas/id347portada.jpg";
+        String URL1 = "http://www.orquestasdegalicia.es/img/portada/orquestas/id347portada.jpg";
         String URL2 = "https://i.ytimg.com/vi/b_M783D35Ac/maxresdefault.jpg";
         String URL3 = "https://i.ytimg.com/vi/Jlud9_rwIGg/maxresdefault.jpg";
 
-
-        //PARA INSERTAR IMAGENES
+        //INSERT PICTURES
         Glide.with(this)
-                .load(URL)
-                .into(foto);
+                .load(URL1)
+                .into(photo1);
         Glide.with(this)
                 .load(URL2)
-                .into(foto2);
+                .into(photo2);
         Glide.with(this)
                 .load(URL3)
-                .into(foto3);
+                .into(photo3);
     }
 }

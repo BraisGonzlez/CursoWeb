@@ -1,9 +1,7 @@
 package com.example.brais.channelband;
 
-
 import android.os.Bundle;
 import android.widget.Toast;
-import android.widget.VideoView;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
 import com.google.android.youtube.player.YouTubeInitializationResult;
@@ -12,12 +10,10 @@ import com.google.android.youtube.player.YouTubePlayerView;
 
 
 /**
- * Created by brais on 16/01/2017.
+ * Created by braisgi@gmail.com
  */
 
 public class Multimedia extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener {
-
-    private VideoView video;
 
     public static final String API_KEY = "AIzaSyCz24HxvGULAlThQ1HXIfzWv9IhvfKc6eI";
     public static final String VIDEO_ID = "ToZ8ug472Vo";
@@ -32,6 +28,7 @@ public class Multimedia extends YouTubeBaseActivity implements YouTubePlayer.OnI
 
     }
 
+    /**********************************************************************************************/
     @Override
     public void onInitializationSuccess(YouTubePlayer.Provider provider, YouTubePlayer youTubePlayer, boolean b) {
         youTubePlayer.setPlayerStateChangeListener(playerStateChangeListener);
@@ -42,11 +39,13 @@ public class Multimedia extends YouTubeBaseActivity implements YouTubePlayer.OnI
         }
     }
 
+    /**********************************************************************************************/
     @Override
     public void onInitializationFailure(YouTubePlayer.Provider provider, YouTubeInitializationResult youTubeInitializationResult) {
         Toast.makeText(this,"Failure to Initialize",Toast.LENGTH_LONG).show();
     }
 
+    /**********************************************************************************************/
     private YouTubePlayer.PlaybackEventListener playbackEventListener = new YouTubePlayer.PlaybackEventListener() {
         @Override
         public void onPlaying() {
@@ -74,6 +73,7 @@ public class Multimedia extends YouTubeBaseActivity implements YouTubePlayer.OnI
         }
     };
 
+    /**********************************************************************************************/
     private YouTubePlayer.PlayerStateChangeListener playerStateChangeListener = new YouTubePlayer.PlayerStateChangeListener() {
         @Override
         public void onLoading() {

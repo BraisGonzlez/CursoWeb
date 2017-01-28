@@ -32,8 +32,8 @@
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="35dp"
                 android:layout_marginTop="20dp"
-                android:textColor="#FFFFFF"
-                android:text="Name:" />
+                android:text="@string/name"
+                android:textColor="#FFFFFF" />
 
             <EditText
                 android:id="@+id/et_name"
@@ -53,8 +53,8 @@
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="35dp"
                 android:layout_marginTop="15dp"
-                android:textColor="#FFFFFF"
-                android:text="Instrument" />
+                android:text="@string/instrument"
+                android:textColor="#FFFFFF" />
 
             <EditText
                 android:id="@+id/et_instrument"
@@ -74,8 +74,8 @@
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="35dp"
                 android:layout_marginTop="15dp"
-                android:textColor="#FFFFFF"
-                android:text="Actually Band" />
+                android:text="@string/actually_band"
+                android:textColor="#FFFFFF" />
 
             <EditText
                 android:id="@+id/et_band"
@@ -95,8 +95,8 @@
                 android:layout_marginLeft="35dp"
                 android:layout_marginRight="35dp"
                 android:layout_marginTop="15dp"
-                android:textColor="#FFFFFF"
-                android:text="Old Band" />
+                android:text="@string/old_band"
+                android:textColor="#FFFFFF" />
 
             <EditText
                 android:id="@+id/et_oldband"
@@ -113,20 +113,18 @@
                 android:id="@+id/btnAddData"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
                 android:layout_marginLeft="80dp"
                 android:layout_marginRight="80dp"
                 android:layout_marginTop="15dp"
-                android:text="ADD" />
+                android:text="@string/add" />
 
             <Button
                 android:id="@+id/btnviewAll"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
                 android:layout_marginLeft="80dp"
                 android:layout_marginRight="80dp"
-                android:text="SHOW" />
+                android:text="@string/show" />
 
             <Button
                 android:id="@+id/btnviewUpdate"
@@ -134,7 +132,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="80dp"
                 android:layout_marginRight="80dp"
-                android:text="UPDATE" />
+                android:text="@string/update" />
 
             <Button
                 android:id="@+id/btnDelete"
@@ -142,7 +140,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="80dp"
                 android:layout_marginRight="80dp"
-                android:text="DELETE" />
+                android:text="@string/delete" />
+
         </LinearLayout>
 
     </ScrollView>

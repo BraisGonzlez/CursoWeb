@@ -16,10 +16,12 @@ import com.example.brais.channelband.R;
  */
 
 public class Administrator extends AppCompatActivity {
+
     DBUsers myDb;
     EditText et_name, et_instrument, et_band, et_oldband;
     Button btnAddData, btnDelete, btnviewAll, btnviewUpdate;
 
+    /**********************************************************************************************/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +37,6 @@ public class Administrator extends AppCompatActivity {
         btnviewAll = (Button) findViewById(R.id.btnviewAll);
         btnviewUpdate = (Button) findViewById(R.id.btnviewUpdate);
         btnDelete = (Button) findViewById(R.id.btnDelete);
-
 
         AddData();
         viewAll();
@@ -56,13 +57,14 @@ public class Administrator extends AppCompatActivity {
 
                 boolean isInserted = myDb.insertData(name,instrument,band,oldband);
 
-                if (isInserted == true)
+                if (isInserted)
                     Toast.makeText(Administrator.this, "Data Inserted", Toast.LENGTH_LONG).show();
                 else
                     Toast.makeText(Administrator.this, "Data not Inserted", Toast.LENGTH_LONG).show();
             }
         });
     }
+
     /**********************************************************************************************/
     public void DeleteData() {
 
@@ -78,6 +80,7 @@ public class Administrator extends AppCompatActivity {
         }
         );
     }
+
     /**********************************************************************************************/
     public void UpdateData() {
         btnviewUpdate.setOnClickListener(new View.OnClickListener() {
@@ -85,13 +88,14 @@ public class Administrator extends AppCompatActivity {
             public void onClick(View v) {
                 boolean isUpdate = myDb.updateData(et_name.getText().toString(), et_instrument.getText().toString(),
                         et_band.getText().toString(), et_oldband.getText().toString());
-                if (isUpdate == true)
+                if (isUpdate)
                     Toast.makeText(Administrator.this, "Data Update", Toast.LENGTH_LONG).show();
                 else
                     Toast.makeText(Administrator.this, "Data not Updated", Toast.LENGTH_LONG).show();
             }
         });
     }
+
     /**********************************************************************************************/
     public void viewAll() {
         btnviewAll.setOnClickListener(new View.OnClickListener() {
@@ -104,18 +108,19 @@ public class Administrator extends AppCompatActivity {
                     return;
                 }
 
-                StringBuffer buffer = new StringBuffer();
+                StringBuilder buffer = new StringBuilder();
                 while (res.moveToNext()) {
-                    buffer.append("Name :" + res.getString(0) + "\n");
-                    buffer.append("Instrument :" + res.getString(1) + "\n");
-                    buffer.append("Band :" + res.getString(2) + "\n");
-                    buffer.append("Old Band :" + res.getString(3) + "\n\n");
+                    buffer.append("Name :").append(res.getString(0)).append("\n");
+                    buffer.append("Instrument :").append(res.getString(1)).append("\n");
+                    buffer.append("Band :").append(res.getString(2)).append("\n");
+                    buffer.append("Old Band :").append(res.getString(3)).append("\n\n");
                 }
                 // Show all data
                 showMessage("Data", buffer.toString());
             }
         });
     }
+
     /**********************************************************************************************/
     public void showMessage(String title, String Message) {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);

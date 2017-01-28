@@ -10,26 +10,24 @@ import android.widget.ListView;
 
 import com.example.brais.channelband.Database.DBUsers;
 
-import java.util.ArrayList;
-
 /**
- * Created by brais on 27/01/2017.
+ * Created by braisgi@gmail.com
  */
 
 public class Components extends AppCompatActivity {
 
     ListView lv;
     DBUsers mydb;
-    ArrayList<String> lista;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.components);
-        load();
+        showComponents();
     }
 
-    public void load() {
+    /**********************************************************************************************/
+    public void showComponents() {
 
         mydb = new DBUsers(this);
         Cursor res = mydb.getAllData();
@@ -37,14 +35,15 @@ public class Components extends AppCompatActivity {
         if (res.getCount() == 0) {
             // show message
             showMessage("Error", "Nothing found");
-            return;
         }
         else {
             int total = res.getCount();
             String [] array = new String[total];
             int i = 0;
             while (res.moveToNext()) {
-                String data = "Name: " + res.getString(0)+"\n"+"Instrument: "+res.getString(1)+"\n"+"Band: " + res.getString(2)+"\n"
+                String data = "Name: " + res.getString(0)+"\n"
+                        +"Instrument: "+res.getString(1)+"\n"
+                        +"Actual Band: " + res.getString(2)+"\n"
                         +"Old Band: " + res.getString(3)+"\n";
                 array[i]= data;
                 i++;
