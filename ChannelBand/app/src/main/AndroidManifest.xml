@@ -38,7 +38,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Components">
             <intent-filter>
                 <action android:name="com.example.brais.channelband.Components" />
@@ -46,7 +45,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Shows">
             <intent-filter>
                 <action android:name="com.example.brais.channelband.Shows" />
@@ -55,9 +53,9 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Fans">
+        <activity android:name=".StaticFragments.Main_Fragments">
             <intent-filter>
-                <action android:name="com.example.brais.channelband.Fans" />
+                <action android:name="com.example.brais.channelband.StaticFragments.Main_Fragments" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -77,7 +75,6 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-
         <activity android:name=".Database.Administrator">
             <intent-filter>
                 <action android:name="com.example.brais.channelband.Database.Administrator" />

@@ -26,27 +26,22 @@
 
             <TextView
 
-                android:text="Sing Up"
+                android:text="@string/sing_up"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_gravity="center"
                 android:id="@+id/tw_reg"
                 android:textSize="24sp"
-                android:textColor="#FFFFFF"
-                android:layout_centerHorizontal="true"
-                android:layout_column="1" />
+                android:textColor="#FFFFFF" />
 
             <TextView
-                android:text="Name:"
+                android:text="@string/name_fans"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:id="@+id/tw_name"
                 android:textColor="#FFFFFF"
-                android:layout_below="@+id/tw_reg"
-                android:layout_alignLeft="@+id/name"
-                android:layout_alignStart="@+id/name"
                 android:layout_gravity="center"/>
 
             <EditText
@@ -58,12 +53,9 @@
                 android:id="@+id/name"
                 android:textColor="@android:color/black"
                 android:background="@drawable/bordes_redondos"
-                android:text=" "
+                android:text="@string/name_editex"
                 android:textSize="18sp"
                 android:textAllCaps="false"
-                android:layout_column="2"
-                android:layout_below="@+id/tw_name"
-                android:layout_centerHorizontal="true"
                 android:layout_gravity="center"/>
 
             <TextView
@@ -71,12 +63,9 @@
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/tw_email"
-                android:text="Email:"
+                android:text="@string/email"
                 android:textColor="@android:color/background_light"
                 android:layout_marginTop="15dp"
-                android:layout_below="@+id/name"
-                android:layout_alignLeft="@+id/mail"
-                android:layout_alignStart="@+id/mail"
                 android:layout_gravity="center"/>
 
             <EditText
@@ -88,22 +77,15 @@
                 android:id="@+id/mail"
                 android:textColor="@android:color/black"
                 android:background="@drawable/bordes_redondos"
-                android:layout_column="1"
-                android:layout_below="@+id/tw_email"
-                android:layout_alignLeft="@+id/name"
-                android:layout_alignStart="@+id/name"
                 android:layout_gravity="center"/>
 
             <TextView
-                android:text="Password:"
+                android:text="@string/password"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:id="@+id/tw_password"
                 android:textColor="#FFFFFF"
                 android:layout_marginTop="15dp"
-                android:layout_below="@+id/mail"
-                android:layout_alignLeft="@+id/mail"
-                android:layout_alignStart="@+id/mail"
                 android:layout_gravity="center"/>
 
             <EditText
@@ -114,23 +96,16 @@
                 android:layout_marginTop="5dp"
                 android:id="@+id/password"
                 android:background="@drawable/bordes_redondos"
-                android:layout_below="@+id/tw_password"
-                android:layout_alignLeft="@+id/tw_password"
-                android:layout_alignStart="@+id/tw_password"
                 android:textColor="@android:color/black"
-                android:layout_column="1"
                 android:layout_gravity="center"/>
 
             <TextView
-                android:text="Repeat Password:"
+                android:text="@string/repeat_password"
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="15dp"
                 android:id="@+id/tw_repeat_password"
                 android:textColor="#FFFFFF"
-                android:layout_below="@+id/password"
-                android:layout_alignLeft="@+id/tw_password"
-                android:layout_alignStart="@+id/tw_password"
                 android:layout_gravity="center"/>
 
             <EditText
@@ -142,24 +117,19 @@
                 android:id="@+id/rp_password"
                 android:textColor="@android:color/black"
                 android:background="@drawable/bordes_redondos"
-                android:text=" "
+                android:text="@string/rp_password_empthy"
                 android:textSize="18sp"
                 android:textAllCaps="false"
-                android:layout_column="2"
-                android:layout_below="@+id/tw_name"
-                android:layout_centerHorizontal="true"
                 android:layout_gravity="center"/>
 
             <Button
-                android:text="Sing Up"
+                android:text="@string/sing_up_empthy"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="28dp"
                 android:id="@+id/btn_reg"
                 android:textStyle="normal|bold"
                 android:background="@drawable/bordes_redondos"
-                android:layout_below="@+id/rp_password"
-                android:layout_centerHorizontal="true"
                 android:layout_gravity="center"/>
 
         </LinearLayout>

@@ -23,4 +23,18 @@
     <string name="actualmente_la_plantilla_de_esta_orquesta_est_formada_por_14_m_sicos_un_t_cnico_de_sonido_dos_t_cnicos_de_iluminaci_n_6_t_cnicos_de_montaje_contamos_con_un_gran_escenario_m_vil_con_lo_ltimo_en_iluminaci_n_y_sonido">Actualmente la plantilla de esta orquesta está formada por 14 músicos, un técnico de sonido, dos técnicos de iluminación, 6 técnicos de montaje. Contamos con un gran escenario móvil con lo último en iluminación y sonido.</string>
     <string name="_15_08_2017">15/08/2017</string>
     <string name="a_adir_fragment">Añadir Fragment</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="name_fans">Name:</string>
+    <string name="name_editex" />
+    <string name="email">Email:</string>
+    <string name="password">Password:</string>
+    <string name="repeat_password">Repeat Password:</string>
+    <string name="rp_password_empthy" />
+    <string name="sing_up_empthy">Sing Up</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hint">frag</string>
+    <string name="second_activity">SECOND ACTIVITY</string>
+    <string name="call_activity">Call Activity</string>
 </resources>
